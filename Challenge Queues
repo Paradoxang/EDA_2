@@ -1,0 +1,51 @@
+class Person {
+  constructor(nombre, horaL) {
+    this.nombre = nombre;
+    this.horaL= horaL;
+  }
+}
+class Atm{
+  constructor(){
+    this.stack={};
+    this.count=0;
+  }
+
+ enqueue(element){
+  this.queue.push(element);
+  return this.queue
+}
+
+ dequeue() {
+  return this.queue.shift();
+}
+
+ peek(){
+  return this.queue[0];
+}
+
+ size(){
+  return this.queue,length;
+}
+
+ isEmpty() {
+  return this.queue.length ===0;
+ }
+
+ print(){
+  console.log(this.stack);
+}
+}
+
+const atm = new Atm();
+const person1 = new Person('Juan', '10:00');
+const person2 = new Person('María', '09:05');
+const person3 = new Person('Pedro', '11:10');
+console.log(atm.size()); // 0
+atm.enqueue(person1);
+atm.enqueue(person2);
+atm.enqueue(person3);
+console.log(atm.size()); // 3
+console.log(atm.peek()); // Person { nombre: 'Juan', horaL: '10:00' }
+console.log(atm.dequeue()); // Person { nombre: 'Juan', horaL: '10:00' }
+console.log(atm.size()); // 2
+atm.print(); // [ Person { nombre: 'María', horaL: '10:05' }, Person { nombre: 'Pedro', horaL: '10:10' } ]
