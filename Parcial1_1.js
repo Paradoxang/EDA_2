@@ -1,4 +1,4 @@
-// Definición de un nodo de la lista enlazada
+
 class ListNode {
     constructor(value) {
         this.value = value;
@@ -6,13 +6,12 @@ class ListNode {
     }
 }
 
-// Función para fusionar dos listas enlazadas ordenadas de mayor a menor
-// y devolver una nueva lista ordenada de menor a mayor
+// Función para fusionar las dos listas y luego organizar
 function mergeAndSortLists(list1, list2) {
-    let dummy = new ListNode(-1); // Nodo ficticio para facilitar la operación
+    let dummy = new ListNode(-1);
     let current = dummy;
     
-    // Fusionar las listas en orden ascendente
+    // Ascendente
     while (list1 !== null && list2 !== null) {
         if (list1.value >= list2.value) {
             current.next = list1;
@@ -23,19 +22,15 @@ function mergeAndSortLists(list1, list2) {
         }
         current = current.next;
     }
-
-    // Si quedan nodos en alguna de las listas, se añaden al final
     if (list1 !== null) {
         current.next = list1;
     } else if (list2 !== null) {
         current.next = list2;
     }
-
-    // La lista resultante está ahora en orden ascendente, pero necesitamos invertirla
     return reverseList(dummy.next);
 }
 
-// Función para invertir una lista enlazada
+//Función para invertir la lista ya ordenada
 function reverseList(head) {
     let prev = null;
     let current = head;
@@ -48,8 +43,6 @@ function reverseList(head) {
     return prev;
 }
 
-// Función para crear una lista enlazada desde un array
-// El array se asume que está ordenado de mayor a menor
 function createLinkedList(arr) {
     let dummy = new ListNode(-1);
     let current = dummy;
@@ -62,7 +55,6 @@ function createLinkedList(arr) {
     return dummy.next;
 }
 
-// Función para imprimir la lista enlazada
 function printLinkedList(head) {
     let current = head;
     let result = [];
@@ -75,7 +67,7 @@ function printLinkedList(head) {
     console.log(result.join(" -> "));
 }
 
-// Ejemplo de uso
+//implementación de ejemplo
 let list1 = createLinkedList([9, 7, 5, 3, 1]);  // Lista de mayor a menor
 let list2 = createLinkedList([10, 8, 6, 4, 2]); // Lista de mayor a menor
 
