@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const CounterApp = () => {
-  // Definir el estado del contador, con un valor inicial de 10
+
   const [counter, setCounter] = useState(10);
 
   // Función para sumar 1 al contador
@@ -38,4 +38,3 @@ const CounterApp = () => {
 };
 
 export default CounterApp;
-    
