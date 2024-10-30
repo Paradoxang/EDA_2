@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import CounterApp from './CounterApp';  // Importar el nuevo componente CounterApp
+import App from './App';  // Import App instead of CounterApp
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CounterApp />  {/* Desplegar el componente CounterApp */}
+    <App />  {/* Render the App component */}
   </React.StrictMode>
 );

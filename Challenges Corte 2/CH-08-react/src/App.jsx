@@ -1,13 +1,13 @@
-import './App.css'
+import './App.css';
 import React from 'react';
-import FirstApp from './FirstApp';  // Importamos el componente FirstApp
+import { Father } from './Father';  // Import the Father component
 
 const App = () => {
   return (
     <div>
-      <FirstApp />  {/* Desplegamos el componente */}
+      <Father />  {/* Render the Father component */}
     </div>
   );
 };
 
-export default App
+export default App;
