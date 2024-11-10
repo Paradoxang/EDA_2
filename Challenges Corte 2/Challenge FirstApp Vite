@@ -1,0 +1,134 @@
+//MAIN
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+//import App from './App'//
+import FirstApp from './FirstApp'
+import './index.css'
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+   <React.StrictMode>
+    <FirstApp/>
+   </React.StrictMode>
+) 
+//
+
+//FirstApp.jsx
+import './App.css'
+ 
+const FirstApp = () => {
+    return (
+        <>
+            <h1> Counter </h1>
+            <span> 10 </span>
+        </>
+    )
+}
+export default FirstApp
+//
+
+//App.jsx
+import './App.css'
+
+const App = () =>{
+  return (
+    <>
+    <h1> Hola Mundo! </h1>
+    <h2> Bienvenido</h2>
+    </>
+  )
+}
+
+
+export default App
+//
+
+
+//GIFEXPERTAPP
+import { useState } from "react"
+import { AddCategory } from "./components/AddCategory"
+import { GifGrid } from "./components/GifGrid"
+export const GiftExpertApp = () => {
+
+    const [categories, setCategories] = useState(['Zodiac'])
+
+    const onAddCategory = (category) => {
+      setCategories(list => [...list, category  ])
+    }
+
+    return (
+        <>
+            <h1>GiftExpert</h1>
+
+            <AddCategory onAddCategory={onAddCategory}/>
+            {
+              categories.map(
+                (category, key) =>
+                {
+                  return <GifGrid category = { category } key = {key} />
+                }
+              )
+            }
+        </>
+    )
+}
+//
+
+//ADDCATEGORY
+import { useState } from "react"
+
+export const AddCategory = ({onAddCategory}) => {
+    
+    const [inputValue, setinputValue] = useState('...')
+
+    const onInputChange = (evt) => {
+        setinputValue(evt.target.value)
+    }
+    const onSubmit = (evt) => {
+        evt.preventDefault();
+        onAddCategory( inputValue );
+        setinputValue('')
+    }
+
+
+    return(
+        <form onSubmit={(event) => onSubmit(event)}>
+            <input
+                type="text"
+                placeholder="Buscar"
+                value={ inputValue }
+                onChange={ ( event ) => onInputChange(event)}
+            />
+        </form>
+    )
+}
+//
+
+//GIFGRID
+//import { useEffect } from "react";
+
+const getGifs = async (category) =>{
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=iBGI64JcBBVodlCcaYzdfHpyj7zd4bnL&q=category&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips`
+    const resp = await fetch (url)
+    const {data} = await resp.json()
+    const gifs = data.map( img => {
+        return{
+            id: img.id,
+            title: img.title,
+            url: img.images.fixed_height_small.url
+        }
+    })    
+    return gifs
+}
+
+
+export const GifGrid = ({category}) => {
+   getGifs(category)
+    return(
+        <>
+            <h3>{category}</h3>
+            <p> Hello World </p>
+        </>
+    )
+}
+//
