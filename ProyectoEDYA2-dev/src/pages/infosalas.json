@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "nombre": "White House Down",
+        "calificacion": 4,
+        "sinopsis": "El policía del Capitolio John Cale debe pasar una entrevista para entrar en el Servicio Secreto. Sin saber el resultado, lleva a su hija a visitar la Casa Blanca, pero, durante el recorrido, un grupo paramilitar asalta el edificio.",
+        "img": "https://m.media-amazon.com/images/M/MV5BNTZkMmRiY2EtOTljZS00MjJjLWFiNDQtNjEwYWE0NWNkYjI4XkEyXkFqcGc@._V1_.jpg",
+        "opinion": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "categoria": "Acción",
+        "tags": [
+            "Suspenso",
+            "Acción"
+        ]
+        
+    },
+    {
+        "id": 6,
+        "nombre": "Late Night With The Devil",
+        "calificacion": 4,
+        "opinion": "XXXXXXXXXXXXXXXXXXXXXXX",
+        "sinopsis": "Halloween de 1977. Jack, el presentador de un programa de televisión, entrevista a la superviviente del suicidio en masa de una secta satánica. Al hacerlo, libera a un demonio que convertirá su vida, y las de muchos otros, en una pesadilla.",
+        "img": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/192/2024/05/02132044/u3YQJctMzFN2wAvnkmXy41bXhFv-scaled.jpg",
+        "categoria": "Terror",
+        "tags": [
+            "Terror",
+            "Suspenso"
+        ]
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Asalto a la Casa de la Moneda",
+        "calificacion": 3,
+        "categoria": "Thriller",
+        "sinopsis": "Un grupo de ladrones recluta a un ingeniero para asaltar el Banco de España el mismo día en que la selección nacional de fútbol disputa la final de la Copa del Mundo.",
+        "img": "https://image.tmdb.org/t/p/original/ylUzYAk5zJGB2ycZdJf9arzKiVE.jpg",
+        "tags": [
+            "Familia",
+            "Thriller",
+            "Heist"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Misión de Rescate 2",
+        "calificacion": 3,
+        "sinopsis": "El agente altamente entrenado, Tyler Rake, regresa del umbral de la muerte con otra peligrosa misión: rescatar a la familia de un mafioso despiadado.",
+        "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/bbbb30173566811.649282c405dad.png",
+        "categoria": "Acción",
+         "tags": [
+            "Acción",
+            "Extracción"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Band of Brothers",
+        "calificacion": 5,
+        "categoria": "Militar",
+        "sinopsis": "Se relatan las experiencias de los jóvenes de la Compañía Easy del 506° Regimiento de Infantería Paracaidista de la 101.ª División Aerotransportada del Ejército de los Estados Unidos.",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kq9KiusAWPPITQrGovbgdhD9R1R.jpg",
+        "tags": [
+            "Acción",
+            "Militar",
+            "Drama"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Avatar la Leyenda de Aang",
+        "calificacion": 5,
+        "sinopsis": "Un chico de 12 años y sus amigos deben usar sus poderes para salvar al mundo del maléfico Señor del Fuego y traer paz para las tres naciones.",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ucNtkZfpZ6KgxqPo039nN4LAyFR.jpg",
+        "categoria": "Animada",
+        "tags": [
+            "Animada",
+            "Aventura",
+            "Comedia"
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "Dune Parte 2",
+        "calificacion": 4,
+        "sinopsis": "Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia. Paul se enfrenta a una elección entre el amor de su vida y el destino del universo, y debe evitar un futuro terrible.",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xCHmhHeO7aOCMlzcNukGH6Q7EiD.jpg",
+        "categoria": "Ciencía Ficción",
+        "tags": [
+            "Ciencia ficción",
+            "Acción"
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "One Piece",
+        "calificacion": 5,
+        "sinopsis": "One Piece narra la historia de un joven llamado Monkey D. Luffy, que inspirado por su amigo pirata Shanks, comienza un viaje para alcanzar su sueño, ser el Rey de los piratas, para lo cual deberá encontrar el tesoro One Piece dejado por el anterior rey de los piratas Gol D. Roger.",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
+        "categoria": "Aventura",
+        "tags": [
+            "Aventura",
+            "Acción",
+            "Comedia",
+            "Acción"
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Dr Stone",
+        "calificacion": 4,
+        "sinopsis": "Dr. Stone es una serie de anime de ciencia ficción que cuenta la historia de un grupo de adolescentes que se despiertan en un mundo petrificado miles de años después de que un destello misterioso petrificara a la mayoría de la humanidad",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xbZQ3fDl0y5mt0ARwfeyrgQ4JTw.jpg",
+        "categoria": "Ciencía Ficción",
+        "tags": [
+            "Ciencia ficción",
+            "Animada",
+            "Aventura",
+            "Comedia"
+        ]
+    },
+    {
+        "id": 10,
+        "nombre": "Dr House",
+        "calificacion": 4,
+        "sinopsis": "La serie cuenta la historia del Dr. Gregory House, un médico antisocial e inconformista que dirige un equipo de diagnóstico en el Hospital Universitario Princeton-Plainsboro de Nueva Jersey. House es un experto en medicina diagnóstica y enfermedades infecciosas y nefrología. Con la ayuda de su equipo, House resuelve casos desconcertantes utilizando su ingenio y haciendo lo que sea necesario.",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lW7MvZ4m49IUj2UrUu4z0xVVl81.jpg",
+        "categoria": "Drama",
+        "tags": [
+            "Drama",
+            "Suspenso",
+            "Medico"
+        ]
+    },
+
+    {
+        "id": 11,
+        "nombre": "42",
+        "calificacion": 4,
+        "sinopsis": "En 1946, Branch Rickey, gerente general del equipo de béisbol, Dodgers de Brooklyn, contrata a Jackie Robinson para formar parte equipo desafiando la famosa barrera del color en el béisbol de las grandes ligas.",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/skDtx23it4RQ6XICxeUm7qoLsT3.jpg",
+        "categoria": "BioPic",
+        "tags": [
+            "Drama",
+            "Deporte",
+            "Emocionante"
+        ]
+    },
+
+    {
+        "id": 12,
+        "nombre": "Fullmetal Alchemist Brotherhood",
+        "calificacion": 5,
+        "sinopsis": "La historia se centra en dos hermanos, Edward Elric y Alphonse Elric que rompieron el mayor tabú de la alquimia, la trasmutación humana al tratar de revivir a su fallecida madre; en consecuencia Edward pierde su pierna izquierda y Alphonse pierde todo su cuerpo, Edward para salvar a su hermano sella su alma en una gran armadura de hierro a cambio de su brazo derecho; ahora los dos con un nuevo objetivo buscan desesperadamente la piedra filosofal para poder regresar sus cuerpos a la normalidad",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cni0R0Ks4wPV40Mk7Aqk6izhI5T.jpg",
+        "categoria": "Animada",
+        "tags": [
+            "Drama",
+            "Suspenso",
+            "Militar",
+            "Acción"
+        ]
+    }
+]
