@@ -40,7 +40,7 @@ const NavbarComponent = () => {
           <Link to="/home" className="text-white font-titleSans font-semibold">
             Home
           </Link>
-          <Link to="/categoria" className="text-white font-titleSans font-semibold">Categorias</Link>
+          <Link to="/categoria" className="text-white font-titleSans font-semibold">Categorías</Link>
           <Link to="/aboutus" className="text-white font-titleSans font-semibold">El Team</Link>
         </NavbarCollapse>
       </Navbar>
