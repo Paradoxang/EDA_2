@@ -1,0 +1,15 @@
+.nav-bar {
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+.nav-bar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.active-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
