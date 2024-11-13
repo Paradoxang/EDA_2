@@ -1,0 +1,12 @@
+
+.home-page {
+    padding: 2rem;
+    color: var(--text-color-dark);
+    background-color: var(--background-color-light);
+    text-align: center;
+  }
+  
+  .home-page h1 {
+    color: var(--primary-color);
+  }
+  

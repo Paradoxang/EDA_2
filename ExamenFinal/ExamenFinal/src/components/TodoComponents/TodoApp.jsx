@@ -4,7 +4,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import TodoList from './TodoList';
 import TodoForm from './TodoForm';
-import { addTodo, removeTodo } from './store/todoSlice';
+import { addTodo, removeTodo } from '../../store/todoSlice';
 
 export const TodoApp = () => {
   const todos = useSelector((state) => state.todos);
