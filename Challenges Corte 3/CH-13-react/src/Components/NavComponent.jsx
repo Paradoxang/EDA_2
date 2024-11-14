@@ -6,7 +6,7 @@ const NavComponent = () =>
     { return ( 
     <nav className="nav-bar"> 
     <NavLink exact to="/" activeClassName="active-link">Home</NavLink> 
-    <NavLink to="/about" activeClassName="active-link">About</NavLink> 
+    <NavLink to="/idPage" activeClassName="active-link">I+DPage</NavLink> 
     <NavLink to="/login" activeClassName="active-link">Login</NavLink> </nav> 
     ); 
 };
