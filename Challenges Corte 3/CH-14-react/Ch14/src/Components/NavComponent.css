@@ -1,0 +1,30 @@
+.nav-bar {
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+.nav-bar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.active-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.logout-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.logout-button:hover {
+    background-color: #ff3333;
+}
